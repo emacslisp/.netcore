@@ -1,0 +1,8 @@
+version: '2'
+
+services:
+  projectnancy:
+    image: projectnancy
+    build:
+      context: ./ProjectNancy
+      dockerfile: Dockerfile

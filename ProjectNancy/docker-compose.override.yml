@@ -1,0 +1,8 @@
+version: '2'
+
+services:
+  projectnancy:
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+    ports:
+      - "80"
